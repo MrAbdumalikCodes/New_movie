@@ -1,4 +1,4 @@
-let numberofFilms = prompt(`How many movies have you seen?`)
+let numberofFilms = +prompt(`How many movies have you seen?`)
 let filmGenres = prompt(`What kind of movie do you often watch?`)
 let actorsFilm = prompt(`Who is your favorite actor?`)
 let personalMovieDB = {
